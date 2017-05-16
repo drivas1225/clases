@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1494946889 source:d:\nuevo de cc1\clases\numeros\main.cpp
+	<iostream>
+	"Complejo.h"
+
+1494946879 source:d:\nuevo de cc1\clases\numeros\src\complejo.cpp
+	"Complejo.h"
+
+1494946973 d:\nuevo de cc1\clases\numeros\include\complejo.h
+	<iostream>
+
