@@ -12,7 +12,7 @@ int main()
     c.print();
     Complejo res = p.suma(c);
     res.print();
-    res=res.p_escalar(5);
+    res.p_escalar(5);
     res.print();
     res= res.mult(c);
     res.print();

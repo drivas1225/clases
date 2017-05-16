@@ -22,10 +22,10 @@ Complejo Complejo::suma(Complejo a)
     return res;
 }
 
-Complejo Complejo::p_escalar(double r)
+void Complejo::p_escalar(double r)
 {
-    Complejo res(real*r,im*r);
-    return res;
+    real=r*real;
+    im=r*im;
 }
 
 Complejo Complejo::mult(Complejo a)
