@@ -15,7 +15,7 @@ int main()
     vec1.push_back(v1);
     vec1.push_back(v2);
     vec1.push_back(v3);
-    for(int i = 0 ; i<3 ;i++){
+    for(int i = 0 ; i<vec1.size() ;i++){
         cout<<vec1[i]->getDesc()<<endl;
     }
 
