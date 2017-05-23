@@ -1,28 +1,26 @@
 #include <iostream>
 #include "Vehicle.h"
 #include "Car.h"
+#include "Camion.h"
+#include <vector>
 
 using namespace std;
 
 int main()
 {
-    int tem;
-    string tems;
-    Vehicle lis[4];
-    for(int i=0;i<4;i++){
-        cout<<"ingrese el año del vehiculo"<<endl;
-        cin>>tem;
-        cout<<"ingrese la placa del vehiculo"<<endl;
-        cin>>tems;
-        Vehicle h(tems,tem);
-        lis[i]=h;
-
+    vector<Vehicle*> vec1;
+    Vehicle *v1=new Vehicle("v7y-353",2017);
+    Car     *v2=new Car("asd-456",2000,"todo terreno");
+    Camion  *v3=new Camion("v4e-456",2010,"pro",6);
+    vec1.push_back(v1);
+    vec1.push_back(v2);
+    vec1.push_back(v3);
+    for(int i = 0 ; i<3 ;i++){
+        cout<<vec1[i]->getDesc()<<endl;
     }
 
-    for(int i =0 ;i<4;i++){
-        cout<<lis[i].getDesc();
-        cout<<endl;
-    }
+
+
 
 
 

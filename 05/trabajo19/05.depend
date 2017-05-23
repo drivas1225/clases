@@ -28,3 +28,34 @@
 	<sstream>
 	<iostream>
 
+1495551098 source:d:\nuevo de cc1\clases\05\trabajo19\camion.cpp
+	"Camion.h"
+
+1495550905 d:\nuevo de cc1\clases\05\trabajo19\camion.h
+	"Vehicle.h"
+	<sstream>
+	<iostream>
+
+1495550884 d:\nuevo de cc1\clases\05\trabajo19\vehicle.h
+	<string.h>
+	<iostream>
+
+1495550928 source:d:\nuevo de cc1\clases\05\trabajo19\car.cpp
+	"Car.h"
+
+1495550905 d:\nuevo de cc1\clases\05\trabajo19\car.h
+	"Vehicle.h"
+	<sstream>
+	<iostream>
+
+1495552427 source:d:\nuevo de cc1\clases\05\trabajo19\main.cpp
+	<iostream>
+	"Vehicle.h"
+	"Car.h"
+	"Camion.h"
+	<vector>
+
+1495550932 source:d:\nuevo de cc1\clases\05\trabajo19\vehicle.cpp
+	"Vehicle.h"
+	<sstream>
+

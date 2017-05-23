@@ -5,16 +5,19 @@ Camion::Camion()
     //ctor
 }
 
-Camion::Camion(const string &myLicense, const int myYear,const string & myStyle): Vehicle ( myLicense , myYear ), style ( myStyle )
+Camion::Camion(const string &myLicense, const int myYear,const string & myStyle, const int myEjes): Vehicle ( myLicense , myYear ), style ( myStyle ),ejes(myEjes)
 {
 
 }
 
-const string Camion::getDesc()
+string Camion::getDesc()
 {
     stringstream ss;
     ss<<year;
-    return ss.str() + " " + style + ": " + license;
+    stringstream ss1;
+    ss1<<ejes;
+
+    return ss.str() + " " + style + ": " + license+" Nuemro de ejes:"+ss1.str();
 }
 
 

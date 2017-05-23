@@ -10,7 +10,7 @@ Car::Car(const string &myLicense, const int myYear,const string & myStyle): Vehi
 
 }
 
-const string Car::getDesc()
+string Car::getDesc()
 {
     stringstream ss;
     ss<<year;

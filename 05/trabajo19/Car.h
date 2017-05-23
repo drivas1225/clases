@@ -12,7 +12,7 @@ class Car:public Vehicle
     public:
         Car();
         Car(const string &myLicense, const int myYear,const string & myStyle);
-        const string getDesc();
+        virtual string getDesc();
         const string &getStyle(){return style;}
         virtual ~Car();
     protected:

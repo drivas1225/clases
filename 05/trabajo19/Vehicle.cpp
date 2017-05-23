@@ -12,7 +12,7 @@ Vehicle::Vehicle(const string & myLicense, const int myYear)
     year=myYear;
 }
 
-const string Vehicle::getDesc()
+string Vehicle::getDesc()
 {
     stringstream ss;
     ss<<year;

@@ -11,7 +11,7 @@ class Vehicle
     public:
         Vehicle();
         Vehicle(const string & myLicense, const int myYear);
-        const string getDesc();
+        virtual string getDesc();
         const string &getLicense() const {return license;}
         const int getYear()const {return year;}
         virtual ~Vehicle();
