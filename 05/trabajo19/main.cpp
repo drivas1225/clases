@@ -10,8 +10,8 @@ int main()
 {
     vector<Vehicle*> vec1;
     Vehicle *v1=new Vehicle("v7y-353",2017);
-    Car     *v2=new Car("asd-456",2000,"todo terreno");
-    Camion  *v3=new Camion("v4e-456",2010,"pro",6);
+    Vehicle *v2=new Car("asd-456",2000,"todo terreno");
+    Vehicle *v3=new Camion("v4e-456",2010,"pro",6);
     vec1.push_back(v1);
     vec1.push_back(v2);
     vec1.push_back(v3);
